@@ -1,0 +1,180 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 109vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), 
+                url('img.csv.jpeg'); /* Ensure the correct image path */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.content {
+    position: absolute; /* Places content on top of the image */
+    top: 45%;
+    left: 6%; /* Moves content to the left */
+    transform: translateY(-50%); /* Centers vertically */
+    color: white;
+}
+
+h1 {
+    font-size: 15rem;
+}
+
+h1 span {
+    color:  #ffcc00;; /* Highlight color */
+}
+
+.par {
+    font-size: 6rem;
+    margin-top: 12px; /* Reduce space between h1 and p */
+}
+
+.cn {
+    position: absolute;
+    width: 200px; /* Increased width */
+    height: 90px; /* Increased height */
+    background: #ffcc00;
+    border: none;
+    margin-bottom: 10%;
+    margin-left: 20px;
+    font-size: 2rem; /* Bigger text */
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 3%;
+}
+
+.cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color:#fff;
+}
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.form {
+    position: absolute;
+    top: 50%;
+    right: 16%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 65px; /* More padding for larger form */
+    border-radius: 20px;
+    text-align: center;
+    width: 890px; /* Increased width */
+    color: white;
+    letter-spacing: 1px;
+}
+
+.form h2 {
+    font-size: 8rem; /* Bigger title */
+    margin-bottom: 20px;
+    background: #ffcc00;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.form input {
+    width: 100%;
+    height: 120px; /* Taller input fields */
+    padding: 20px; /* More padding inside inputs */
+    margin: 20px 0;
+    border: none;
+    font-size: 3rem; /* Bigger text */
+    border-radius: 10px;
+    background: transparent;
+    border-bottom: 1px solid #ffcc00;
+    color:white;
+    margin-bottom: 8%;
+}
+
+.btn {
+    width: 100%;
+    padding: 30px;
+    background: #ffcc00;
+    border: none;
+    border-radius: 25px;
+    font-size: 5rem; /* Bigger button text */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #ffd633;
+    color: #fff;
+}
+.link {
+    font-size: 50px;
+    margin-top: 5%;
+}
+a {
+    color: blue;
+    text-decoration: none; /* Removes underline */
+    font-weight: bold;
+    font-size: 40px;
+  }
+.lio {
+    font-size: 50px;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%),url('signupimg.csv.jpeg');
+    background-position: center;
+    background-size: cover;
+    color:white;
+   font: size 2.5em;
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+.title{
+    font-size: 50px;
+    font-weight: 500;
+    position: relative;
+}
+.container.title::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    left: 0;
+    bottom: 0;
+    background:rgba(0, 0, 0, 0.8); 
+}
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .user-details .input box{
+    margin: 20px 0 20px 0;
+    width: calc(100%/2-20px);
+    
+}
