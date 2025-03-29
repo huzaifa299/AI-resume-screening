@@ -105,20 +105,57 @@ p {
     font-weight: bold;
     font-size: 15px;
   }
-.signup-page{
+ .signup-page {
     width: 100%;
-    height: 58vh;
+    height: 100vh; /* Full viewport height */
     background: url('signup.jpeg') no-repeat center center;
     background-size: cover;
     color: white;
-    background-size: cover;
-}
-.Wrapper {
-    padding: 20px;
-    border-radius: 25px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    text-align: center;  /* Centers text inside */
+    margin-bottom: 250px;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 250px;
-    align-items: flex-start;
+}
+
+
+.Wrapper {
+    background: #1d183166 /* Semi-transparent background */;
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    color: white;
+    width: 400px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);  
+    top: 30%;
+    backdrop-filter: blur(10px);
+}
+.title h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.input-box {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.details {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.input-box:focus {
+    border: 2px solid #4CAF50;
+    background: rgba
 }
