@@ -3,13 +3,13 @@
 <head>
     <meta charset='utf-8'>
     <title>AI-website</title>
-    <link rel="Stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/styles.css') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body class="login-page">
     <div class="content">
-        <h1>AI-Powered <br><span>Resume</span><br> Screener</h1>
-        <p >Our AI-powered resume screener speeds up hiring by <br>quickly analyzing resumes,
+        <h1>AI-Powered Resume Screener</h1>
+        <p >Our AI-powered resume screener speeds up hiring by quickly analyzing resumes,
             ensuring accuracy and fairness.
         </p>
     </div>
@@ -17,9 +17,9 @@
         <h2>LOGIN HERE</h2>
         <input type="email" name="email" placeholder="Enter Email Here">
         <input type="password" name="" placeholder="Enter password Here">
-        <button class="btn" onclick="window.location.href='Result.html'">Log in</button>
+        <button class="Loginbtn" onclick="window.location.href='Result.html'">Log in</button>
         <div class="auth-links">
-          <p>Dont have an account?</p><br>
+          <p>Dont have an account?</p>
           <a href="SignUp.html">Sign up Here</a>
         </div>
     </div>
